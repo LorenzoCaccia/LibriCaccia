@@ -28,6 +28,10 @@ export default {
           label: "Inserisci Libro",
           code: "books_create"
         },
+        {
+          label: "Inserisci un Genere",
+          code: "genres_create"
+        },
 
       ]
     };

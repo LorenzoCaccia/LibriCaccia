@@ -5,6 +5,7 @@ import VueRouter from 'vue-router';
 import BooksList from '@/components/BooksList.vue';
 import BooksDetail from '@/components/BooksDetail.vue';
 import BooksCreate from '@/components/BooksCreate.vue';
+import GenresCreate from '@/components/GenresCreate.vue';
 
 Vue.config.productionTip = false
 
@@ -25,6 +26,11 @@ const routes = [
     path: '/create',
     name: "books_create",
     component: BooksCreate,
+  },
+  {
+    path: '/genres',
+    name: "genres_create",
+    component: GenresCreate,
   },  
   {
     path: '',

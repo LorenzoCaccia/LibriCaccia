@@ -25,5 +25,5 @@ Route::get("/books",[BookController::class,"view_books"]);
 Route::get("/book/detail/{id}",[BookController::class,"book_detail"]);
 
 Route::get("/genres",[GenreController::class,"view_genres"]);
-
+Route::post("/genres/create",[GenreController::class,"create_genre"]);
 
